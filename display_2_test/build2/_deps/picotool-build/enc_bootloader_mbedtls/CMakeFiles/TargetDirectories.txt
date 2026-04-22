@@ -1,2 +1,0 @@
-/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/edit_cache.dir
-/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/rebuild_cache.dir
