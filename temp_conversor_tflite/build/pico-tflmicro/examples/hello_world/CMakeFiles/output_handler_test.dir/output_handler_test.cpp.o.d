@@ -1,0 +1,27 @@
+pico-tflmicro/examples/hello_world/CMakeFiles/output_handler_test.dir/output_handler_test.cpp.o: \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/examples/hello_world/output_handler_test.cpp \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/examples/hello_world/output_handler.h \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/src/tensorflow/lite/c/common.h \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/src/tensorflow/lite/core/c/common.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/src/tensorflow/lite/core/c/c_api_types.h \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/src/tensorflow/compiler/mlir/lite/core/c/tflite_types.h \
+ /usr/include/newlib/c++/13.2.1/utility \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+ /usr/include/newlib/c++/13.2.1/bits/stl_relops.h \
+ /usr/include/newlib/c++/13.2.1/bits/stl_pair.h \
+ /usr/include/newlib/c++/13.2.1/type_traits \
+ /usr/include/newlib/c++/13.2.1/bits/move.h \
+ /usr/include/newlib/c++/13.2.1/bits/utility.h \
+ /usr/include/newlib/c++/13.2.1/initializer_list \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/src/tensorflow/lite/micro/micro_log.h \
+ /usr/include/newlib/c++/13.2.1/cstdarg \
+ /usr/include/newlib/c++/13.2.1/cstddef \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/src/tensorflow/lite/micro/testing/micro_test.h \
+ /usr/include/newlib/c++/13.2.1/limits \
+ /home/pushkino/Documentos/rp2040/temp_conversor_tflite/pico-tflmicro/src/tensorflow/lite/micro/system_setup.h

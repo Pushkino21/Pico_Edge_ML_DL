@@ -1,0 +1,570 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      The target system is: PICO -  - cortex-m0plus
+      The host system is: Linux - 6.11.3-200.fc40.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags:  
+      
+      The output was:
+      1
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x16): undefined reference to `_exit'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_exit): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-exit.o)
+      exit.c:(.text.exit+0x16): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_close): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-closer.o)
+      closer.c:(.text._close_r+0xc): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x10): undefined reference to `_lseek'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_lseek): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lseekr.o)
+      lseekr.c:(.text._lseek_r+0x10): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x10): undefined reference to `_read'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_read): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-readr.o)
+      readr.c:(.text._read_r+0x10): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x10): undefined reference to `_write'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_write): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-writer.o)
+      writer.c:(.text._write_r+0x10): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_sbrk): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sbrkr.o)
+      sbrkr.c:(.text._sbrk_r+0xc): dangerous relocation: unsupported relocation
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags:  
+      
+      The output was:
+      1
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x16): undefined reference to `_exit'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_exit): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-exit.o)
+      exit.c:(.text.exit+0x16): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_close): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-closer.o)
+      closer.c:(.text._close_r+0xc): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x10): undefined reference to `_lseek'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_lseek): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lseekr.o)
+      lseekr.c:(.text._lseek_r+0x10): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x10): undefined reference to `_read'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_read): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-readr.o)
+      readr.c:(.text._read_r+0x10): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x10): undefined reference to `_write'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_write): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-writer.o)
+      writer.c:(.text._write_r+0x10): dangerous relocation: unsupported relocation
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: (_sbrk): Unknown destination type (ARM/Thumb) in /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sbrkr.o)
+      sbrkr.c:(.text._sbrk_r+0xc): dangerous relocation: unsupported relocation
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-zzYTsd"
+      binary: "/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-zzYTsd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/pico-sdk/cmake"
+      PICO_SDK_PATH: "/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/pico-sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-zzYTsd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_30c1e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_30c1e.dir/build.make CMakeFiles/cmTC_30c1e.dir/build
+        gmake[1]: Entering directory '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-zzYTsd'
+        Building C object CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o
+        /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb  -std=gnu11   -v -o CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_30c1e.dir/'
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_30c1e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccpy8Me0.s
+        GNU C11 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"
+        ignoring nonexistent directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: b188e82d73c14327741f71b398212fe0
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_30c1e.dir/'
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o /tmp/ccpy8Me0.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
+        COMPILER_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_30c1e.elf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30c1e.dir/link.txt --verbose=1
+        /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o -o cmTC_30c1e.elf
+        Using built-in specs.
+        COLLECT_GCC=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc
+        COLLECT_LTO_WRAPPER=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COMPILER_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_30c1e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_30c1e.elf.'
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyM8Wd2.res --sysroot=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_30c1e.elf -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o
+        /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_30c1e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_30c1e.elf.'
+        gmake[1]: Leaving directory '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-zzYTsd'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include]
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-zzYTsd']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_30c1e/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_30c1e.dir/build.make CMakeFiles/cmTC_30c1e.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-zzYTsd']
+        ignore line: [Building C object CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb  -std=gnu11   -v -o CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_30c1e.dir/']
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_30c1e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccpy8Me0.s]
+        ignore line: [GNU C11 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b188e82d73c14327741f71b398212fe0]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_30c1e.dir/']
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o /tmp/ccpy8Me0.s]
+        ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
+        ignore line: [COMPILER_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_30c1e.elf]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30c1e.dir/link.txt --verbose=1]
+        ignore line: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o -o cmTC_30c1e.elf]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COMPILER_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_30c1e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_30c1e.elf.']
+        link line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyM8Wd2.res --sysroot=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_30c1e.elf -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o]
+          arg [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccyM8Wd2.res] ==> ignore
+          arg [--sysroot=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_30c1e.elf] ==> ignore
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_30c1e.dir/CMakeCCompilerABI.c.o] ==> ignore
+        ignore line: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_30c1e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_30c1e.elf.']
+        ignore line: [gmake[1]: Leaving directory '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-zzYTsd']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-7Z4szj"
+      binary: "/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-7Z4szj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
+      CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/pico-sdk/cmake"
+      PICO_SDK_PATH: "/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/pico-sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-7Z4szj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c9da6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c9da6.dir/build.make CMakeFiles/cmTC_c9da6.dir/build
+        gmake[1]: Entering directory '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-7Z4szj'
+        Building CXX object CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o
+        /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb  -std=gnu++11   -v -o CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++11' '-v' '-o' 'CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c9da6.dir/'
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c9da6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu++11 -version -o /tmp/ccecaqYH.s
+        GNU C++11 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"
+        ignoring nonexistent directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 11dcbadfa8b298132a6bf615d82ed1e4
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++11' '-v' '-o' 'CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c9da6.dir/'
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccecaqYH.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
+        COMPILER_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++11' '-v' '-o' 'CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c9da6.elf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9da6.dir/link.txt --verbose=1
+        /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c9da6.elf
+        Using built-in specs.
+        COLLECT_GCC=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++
+        COLLECT_LTO_WRAPPER=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COMPILER_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c9da6.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c9da6.elf.'
+         /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cch96dJx.res --sysroot=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_c9da6.elf -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o
+        /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c9da6.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c9da6.elf.'
+        gmake[1]: Leaving directory '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-7Z4szj'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1]
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp]
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward]
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+          add: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1]
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp]
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/backward]
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include]
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        collapse include dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/backward;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-7Z4szj']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c9da6/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c9da6.dir/build.make CMakeFiles/cmTC_c9da6.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-7Z4szj']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb  -std=gnu++11   -v -o CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++11' '-v' '-o' 'CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c9da6.dir/']
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c9da6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu++11 -version -o /tmp/ccecaqYH.s]
+        ignore line: [GNU C++11 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 11dcbadfa8b298132a6bf615d82ed1e4]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++11' '-v' '-o' 'CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c9da6.dir/']
+        ignore line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccecaqYH.s]
+        ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
+        ignore line: [COMPILER_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-std=gnu++11' '-v' '-o' 'CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c9da6.elf]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9da6.dir/link.txt --verbose=1]
+        ignore line: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c9da6.elf]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COMPILER_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c9da6.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c9da6.elf.']
+        link line: [ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cch96dJx.res --sysroot=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_c9da6.elf -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o]
+          arg [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cch96dJx.res] ==> ignore
+          arg [--sysroot=/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c9da6.elf] ==> ignore
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
+          arg [-L/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_c9da6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+        ignore line: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c9da6.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c9da6.elf.']
+        ignore line: [gmake[1]: Leaving directory '/home/pushkino/Documentos/Ingenieria/scripts/embedded/C_C++/rp2040/captura_sencilla/build/CMakeFiles/CMakeScratch/TryCompile-7Z4szj']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        collapse library dir [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib] ==> [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc;/home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+...

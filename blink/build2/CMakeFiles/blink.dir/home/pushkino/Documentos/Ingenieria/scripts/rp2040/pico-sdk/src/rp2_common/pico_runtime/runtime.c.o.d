@@ -1,0 +1,37 @@
+CMakeFiles/blink.dir/home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/pico_runtime/runtime.c \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/common/pico_base_headers/include/pico.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/assert.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/blink/build2/generated/pico_base/pico/version.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/blink/build2/generated/pico_base/pico/config_autogen.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/boards/include/boards/pico_w.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /home/pushkino/opt/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+ /home/pushkino/Documentos/Ingenieria/scripts/rp2040/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h

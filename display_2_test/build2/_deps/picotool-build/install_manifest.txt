@@ -1,0 +1,7 @@
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool/picotool
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool/picotoolTargets.cmake
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool/picotoolTargets-release.cmake
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool/picotoolConfig.cmake
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool/picotoolConfigVersion.cmake
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool/enc_bootloader.elf
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool/enc_bootloader_mbedtls.elf

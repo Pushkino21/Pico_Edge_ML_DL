@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/CMakeFiles/picotoolBuild
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/CMakeFiles/picotoolBuild.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/CMakeFiles/picotoolBuild-complete.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/pico-tflmicro/examples/hello_world/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

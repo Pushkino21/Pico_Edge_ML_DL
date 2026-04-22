@@ -1,0 +1,5 @@
+/home/pushkino/Documentos/Ingenieria/scripts/rp2040/blink/build2/pioasm-install/pioasm/pioasm
+/home/pushkino/Documentos/Ingenieria/scripts/rp2040/blink/build2/pioasm-install/pioasm/pioasmTargets.cmake
+/home/pushkino/Documentos/Ingenieria/scripts/rp2040/blink/build2/pioasm-install/pioasm/pioasmTargets-release.cmake
+/home/pushkino/Documentos/Ingenieria/scripts/rp2040/blink/build2/pioasm-install/pioasm/pioasmConfig.cmake
+/home/pushkino/Documentos/Ingenieria/scripts/rp2040/blink/build2/pioasm-install/pioasm/pioasmConfigVersion.cmake

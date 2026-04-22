@@ -1,0 +1,13 @@
+# Target labels
+ enc_bootloader_mbedtls
+# Source files and their labels
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/CMakeFiles/enc_bootloader_mbedtls
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/CMakeFiles/enc_bootloader_mbedtls.rule
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/CMakeFiles/enc_bootloader_mbedtls-complete.rule
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-build.rule
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-configure.rule
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-download.rule
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-install.rule
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-mkdir.rule
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-patch.rule
+/home/pushkino/Documentos/rp2040/display_2_test/build2/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-update.rule

@@ -1,0 +1,13 @@
+# Target labels
+ enc_bootloader
+# Source files and their labels
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/CMakeFiles/enc_bootloader
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/CMakeFiles/enc_bootloader.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch.rule
+/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update.rule

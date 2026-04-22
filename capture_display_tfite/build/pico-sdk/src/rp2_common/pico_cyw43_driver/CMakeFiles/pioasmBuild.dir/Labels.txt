@@ -1,0 +1,13 @@
+# Target labels
+ pioasmBuild
+# Source files and their labels
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.rule
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete.rule
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule

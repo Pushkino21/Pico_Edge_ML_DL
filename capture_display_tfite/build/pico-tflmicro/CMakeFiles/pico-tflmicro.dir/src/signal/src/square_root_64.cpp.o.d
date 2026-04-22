@@ -1,0 +1,5 @@
+pico-tflmicro/CMakeFiles/pico-tflmicro.dir/src/signal/src/square_root_64.cpp.o: \
+ /home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/pico-tflmicro/src/signal/src/square_root_64.cpp \
+ /home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/pico-tflmicro/src/signal/src/msb.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ /home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/pico-tflmicro/src/signal/src/square_root.h

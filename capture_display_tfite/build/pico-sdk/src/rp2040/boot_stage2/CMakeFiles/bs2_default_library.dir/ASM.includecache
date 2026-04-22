@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pushkino/Documents/pico_c/C_C++/rp2040/capture_display_tfite/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
+
