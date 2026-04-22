@@ -1,7 +1,0 @@
-/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool/picotool
-/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool/picotoolTargets.cmake
-/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool/picotoolTargets-release.cmake
-/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool/picotoolConfig.cmake
-/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool/picotoolConfigVersion.cmake
-/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool/enc_bootloader.elf
-/home/pushkino/Documentos/rp2040/temp_conversor_tflite/build/_deps/picotool/enc_bootloader_mbedtls.elf
